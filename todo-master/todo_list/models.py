@@ -17,6 +17,7 @@ class TodoList(models.Model):
     created = models.IntegerField(blank=True, null=True)
     updated = models.IntegerField(blank=True, null=True)
 
+
     class Meta:
         managed = False
         db_table = 'todo_list'
